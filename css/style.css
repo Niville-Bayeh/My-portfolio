@@ -41,34 +41,35 @@ body{
     color: rgb(23, 238, 52);
 }
 
+
 .navbar-collapse{
     flex-grow: unset !important;
 }
+
 
 ion-icon{
     color: white;
     font-size: 64px;
 }
-
 .slider-image img{
-    width: 100%;
+    margin: 20%;
     border-radius: 100%;
     overflow: hidden;
     border: 10px solid #fff;
+    align-items: center;
 }
 
 .slider-image{
     border-color: #071622;
-    height: 100vh;
     display: flex;
     align-items: center;
-    border-radius: 50px;
 }
 
 .info{
    align-items: center;
-   padding-top: 15%;
-   margin-bottom: 0px;
+   margin-top: 10%;
+   margin-bottom: -5px;
+   height: 80vh;
 }
 
 .name{
@@ -111,6 +112,7 @@ ion-icon{
 .sm-title{
     color: var(--primary);
     font-size: 18px;
+    
 }
 
 .lg-title{
