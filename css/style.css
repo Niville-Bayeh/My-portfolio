@@ -57,6 +57,8 @@ ion-icon{
     overflow: hidden;
     border: 10px solid #fff;
     align-items: center;
+    width: 22rem;
+    height: 22rem;
 }
 
 .slider-image{
@@ -198,9 +200,13 @@ table{
     color: #fff;
 }
 
-.footer a span{
+.footer a{
     color: var(--primary);
 }
+ .footer p{
+   color: white;
+   font-family: var(--roboto);  
+ }
 
 
 
