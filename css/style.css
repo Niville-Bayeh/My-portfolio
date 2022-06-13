@@ -184,6 +184,21 @@ table{
     color: #fff;
 }
 
+/* social media section */
+.social-icon{
+    align-items: center;
+}
+.social-icon img {
+    width: 80px;
+    transition: 05s;
+    padding: 20px;
+    
+}
+
+.social-icon a:hover img{
+    transform: translateY(-20px);
+}
+
 .footer{
     height: 50px;
     width: 100%;
@@ -204,8 +219,7 @@ table{
     color: var(--primary);
 }
  .footer p{
-   color: white;
-   font-family: var(--roboto);  
+   color: white;  
  }
 
 
